@@ -1,0 +1,75 @@
+<!DOCTYPE! html>
+<html lang="en">
+<!--
+Name: Tyler Flynt
+Date Created: 4/8/20
+Most recent revision: 4/8/20
+-->
+    
+    <head>
+        <title>Chez Flynt Restuarant Menu</title>
+    </head>
+    <body>
+        <header>
+            <h1>Chez Flynt</h1>
+        </header>
+        
+        <nav>
+            <hr />
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="contact.html">Contact</a>
+            <hr />
+        </nav>
+        
+        <section>
+            <form action="contactUs.html" method="POST">
+                <label for="fullName">Name:</label><input type="text" name="fullName" /><br />
+                <label for="email">Email:</label><input type="text" name="email" /><br /> 
+                <label for="phoneNumber">Phone Number:</label><input type="text" name="phoneNumber" /><br />
+                
+                <label for="inquiry">Reason for Inquiry:</label>
+                <select id="inquiry" name="inquiry">
+                    <option value="catering">Catering</option>
+                    <option value="party">Private Party</option>
+                    <option value="feedback">Feedback</option>
+                    <option value="other">Other</option>
+                </select><br />
+                
+                 <label for="info">Additional Information:</label>
+                <textarea id="info" name="info"></textarea><br />
+        
+               
+                <label for="inquiry">Have you ever been to Chez Flynt?:</label>
+                <input type="radio" id="choice1" name="everBeen" value="No" checked>
+                <label for="choice1">No</label>
+                <input type="radio" id="choice2" name="everBeen" value="Yes">
+                <label for="choice2">Yes</label><br />
+                
+                <label for="contact">Best days to contact you:</label>
+                <input type="checkbox" id="monday" name="bestDays" value="monday">
+                <label for="monday">M</label>
+                <input type="checkbox" id="tuesday" name="bestDays" value="tuesday">
+                <label for="tuesday">T</label>
+                <input type="checkbox" id="wednesday" name="bestDays" value="wednesday">
+                <label for="wednesday">W</label>
+                <input type="checkbox" id="thursday" name="bestDays" value="thursday">
+                <label for="thursday">Th</label>
+                <input type="checkbox" id="friday" name="bestDays" value="friday">
+                <label for="friday">F</label><br />
+                
+                <input type="submit" value="Submit Request"/>
+                
+            </form>
+        
+            
+        
+        </section>
+        
+        <footer>
+            <hr />
+            <p>33 Canal St, Buffalo NY, 14075 <br /> 716-258-9835</p>
+        </footer>
+    
+    </body>
+</html>
